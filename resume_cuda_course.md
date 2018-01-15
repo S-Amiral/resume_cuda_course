@@ -19,7 +19,7 @@ java : A[] tab = new A[n] // 1 objets
 c/c++ :
 ```c
 A* tab = new A[n] // n+1 objets
-A** tab = new A[n] // 1 objets
+A** tab = new A*[n] // 1 objets
 ```
 
 
